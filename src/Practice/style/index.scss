@@ -1,0 +1,137 @@
+// .container {
+//     display: grid;
+//     grid-template-columns: repeat(3, 1fr) 280px;
+//     grid-template-rows: 100px 200px 400px 100px;
+//     gap: 10px;
+//     padding: 20px;
+//     font-size: 30px;
+// }
+
+// .item {
+//     background-color: red;
+//     color: white;
+// }
+
+// .header {
+//     grid-column: 1/5;
+// }
+
+// .item1 {
+//     grid-column: 1/2;
+// }
+
+// .item2 {
+//     grid-column: 2/3;
+// }
+
+// .item3 {
+//     grid-column: 3/4;
+// }
+
+// .sidebar {
+//     grid-column: 4/5;
+//     grid-row: 2 / span 2;
+// }
+
+// .main {
+//     grid-column: 1/4;
+// }
+
+// .footer {
+//     grid-column: 1/5;
+// }
+
+// // METHOD 2: Line Names
+
+// .container {
+//     display: grid;
+//     grid-template-columns: repeat(3, [col-start] 1fr [col-end]) 280px [grid-end];
+//     grid-template-rows: [header-start] 100px [header-end boxes-start] 200px [boxes-end main-start] 400px [main-end footer-start] 100px [footer-end];
+//     gap: 10px;
+//     padding: 20px;
+//     font-size: 30px;
+// }
+
+// .item {
+//     background-color: red;
+//     color: white;
+// }
+
+// .header {
+//     grid-column: 1 / grid-end;
+// }
+
+// .item1 {
+//     grid-column: 1/2;
+// }
+
+// .item2 {
+//     grid-column: 2/3;
+// }
+
+// .item3 {
+//     grid-column: 3/4;
+// }
+
+// .sidebar {
+//     grid-column: col-end 3 / grid-end;
+//     grid-row: boxes-start / main-end;
+// }
+
+// .main {
+//     grid-column: col-start 1 / col-end 3 
+// }
+
+// .footer {
+//     grid-column: col-start 1 / grid-end;
+// }
+
+// METHOD 3: LINE AREA
+
+// .container {
+//     display: grid;
+//     grid-template-columns: repeat(3, 1fr) 280px;
+//     grid-template-rows: 100px 200px 400px 100px;
+
+//     grid-template-areas: 'header header header .'
+//                          'box-1 box-2 box-3 sidebar'
+//                          'main main main sidebar'
+//                          'footer footer footer footer';
+//     gap: 10px;
+//     padding: 20px;
+//     font-size: 30px;
+// }
+
+// .item {
+//     background-color: red;
+//     color: white;
+// }
+
+// .header {
+//     grid-area: header;
+// }
+
+// .item1 {
+//     grid-area: box-1;
+// }
+
+// .item2 {
+//     grid-area: box-2;
+// }
+
+// .item3 {
+//     grid-area: box-3;
+// }
+
+// .sidebar {
+//     grid-area: sidebar;
+// }
+
+// .main {
+//     grid-area: main;
+// }
+
+// .footer {
+//     grid-area: footer;
+// }
+
