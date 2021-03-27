@@ -7,6 +7,7 @@ import Footer from './Components/Footer.js';
 import Gallery from './Components/Gallery.js';
 import Header from './Components/Header.js';
 import Homes from './Components/Homes.js';
+import Pictures from './Components/Pictures.js'
 import Realtors from './Components/Realtors.js';
 import Sidebar from './Components/Sidebar.js';
 
@@ -16,6 +17,7 @@ const Home = (props) => {
         <Header />
         <Realtors />
         <Features />
+        <Pictures />
         <Content />
         <Homes />
         <Gallery />
