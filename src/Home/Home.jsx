@@ -1,5 +1,5 @@
 
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import Content from './Components/Content.js';
 import Features from './Components/Features.js';
